@@ -8,7 +8,7 @@ $puerto = getenv('MYSQLPORT') ?: '3306';
 
 $conexion = mysqli_connect($servidor, $usuario, $clave, $bd, (int)$puerto);
 
-if(!conexion) {
+if(!$conexion) {
   die("Error al conectar con la base de datos: " . mysqli_connect_error());
 }
 
