@@ -24,10 +24,10 @@ if(!$conexion) {
 
 <form action"#" name="formulario" method="post">
 
-<img src ="cristo.jpg" height="50" width="50";
+<img src ="cristo.jpg" height="100" width="100";
   
 <center>
-<b>PARROQUIA CRISTO REDENTOR DEL HOMBRE</b><P>
+<center><font size="15" color="1AC42C"><b> Parroquia Cristo Redentor Del Hombre </b><p>
 "Seminario de Vida en el Espíritu"<p>
 <b>FICHA DE INSCRIPCION</b><p>
 
