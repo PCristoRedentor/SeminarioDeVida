@@ -12,7 +12,7 @@ if(!$conexion) {
   die("Error al conectar con la base de datos: " . mysqli_connect_error());
 }
 
-  myslqi_quialy($conexion, "ALTER TABLE datos MODIFY id INT AUTO_INCREMENT PRIMARY KEY;");
+  myslqi_query($conexion, "ALTER TABLE datos MODIFY id INT AUTO_INCREMENT PRIMARY KEY;");
 
 ?>
 
