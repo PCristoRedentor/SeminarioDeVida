@@ -33,7 +33,7 @@ if(!$conexion) {
 <b>FICHA DE INSCRIPCION</b><p>
 
 
-<input type="text" name="nombre" placeholder="nombre"><p>
+<input type="text" name="nombre" placeholder="nombre" height="200" width="200"><p>
 <input type="text" name="edad" placeholder="edad"><p>
 <input type="email" name="correo" placeholder="correo"><p>
 <input type="text" name="telefono" placeholder="telefono"><p>
