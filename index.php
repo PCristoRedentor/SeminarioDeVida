@@ -1,11 +1,16 @@
 <?php
 
-$servidor = "localhost";
-$usuario = "root";
-$clave = "";
-$baseDeDatos = "formulario";
+$servidor = getenv('MYSQLHOST') ?: 'mysql.railway.internal';
+$usuario = getenv('MYSQLUSER') ?: 'root';
+$clave = getenv('MYSQLPASSWORD') ?: 'QDIczPxlNKMLrykAessYpqJNWmeKHdKZ';
+$bd = getenv('MYSQLDATABASE') ?: 'railway';
+$puerto = getenv('MYSQLPORT') ?: '3306';
 
-$conexion = mysqli_connect($servidor, $usuario, $clave, $baseDeDatos);
+$conexion = mysqli_connect($servidor, $usuario, $clave, $bd, (int)$puerto);
+
+if(!conexion) {
+  die("Error al conectar con la base de datos: " . mysqli_connect_error());
+}
 
 ?>
 
