@@ -24,7 +24,7 @@ if(!$conexion) {
 
 <form action"#" name="formulario" method="post">
 
-<img src ="cristo.jpg";
+<img src ="cristo.jpg" whidth= 100px, eigth= 100px;
   
 <center>
 PARROQUIA CRISTO REDENTOR<p>
