@@ -24,6 +24,8 @@ if(!$conexion) {
 
 <form action"#" name="formulario" method="post">
 
+<img src =("C:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiE_0qsr__TiHSPZ67zevqVY9rnI0nXisWJOTEuk4UNZ1k-iTxtyH1fSk&s=10");
+  
 <center>
 PARROQUIA CRISTO REDENTOR<p>
 DEL HOMBRE<P>
