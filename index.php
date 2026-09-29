@@ -28,7 +28,7 @@ if(!$conexion) {
 <img src ="cristo.jpg" height="200" width="200";
   
 <center>
-<center><font size="8" color="1C1C1C"><b> Parroquia Cristo Redentor Del Hombre </b><p>
+<center><font size="6" color="1C1C1C"><b> Parroquia Cristo Redentor Del Hombre </b><p>
 "Seminario de Vida en el Espíritu"<p>
 <b>FICHA DE INSCRIPCION</b><p>
 
