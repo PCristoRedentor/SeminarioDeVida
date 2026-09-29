@@ -23,7 +23,7 @@ if(!$conexion) {
   </head>
   <body>
 
-<form action"#" name="formulario" method="post" height="1080" width="560">
+<form action"#" name="formulario" method="post">
 
 <img src ="cristo.jpg" height="200" width="200";
   
