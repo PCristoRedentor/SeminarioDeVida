@@ -25,7 +25,7 @@ if(!$conexion) {
 
 <form action"#" name="formulario" method="post">
 
-<img src ="cristo.jpg" height="200" width="device-width";
+<img src ="cristo.jpg" height="200" width="200";
   
 <center>
 <center><font size="16" color="1C1C1C"><b> Parroquia Cristo Redentor Del Hombre </b><p>
