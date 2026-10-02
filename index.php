@@ -35,8 +35,12 @@ if(!$conexion) {
 
 <input type="text" name="nombre" placeholder="nombre"><p>
 <input type="text" name="edad" placeholder="edad"><p>
-<input type="email" name="correo" placeholder="correo"><p>
+<input type="text" name="direccion" placeholder="direccion"><p>
 <input type="text" name="telefono" placeholder="telefono"><p>
+<input type="email" name="correo" placeholder="correo"><p>
+<input type="text" name="ocupacion" placeholder="ocupacion"><p>  
+<input type="text" name="estadocivil" placeholder="Estado civil"><p>  
+Sacramentos:<p>  
 
 <input type="submit" name="registro">
 <input type="reset">
