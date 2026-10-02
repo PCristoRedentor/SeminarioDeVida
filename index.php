@@ -43,10 +43,10 @@ if(!$conexion) {
 <input type="text" name="ocupacion" placeholder="ocupacion" style="width: 500px; padding: 32px; font-size= "40px"<p>
 <input type="text" name="estadocivil" placeholder="Estado civil" style="width: 500px; padding: 32px; font-size= "40px"><p>  
 <p><b>Sacramentos:</b></p>
-<input type="checkbox" name="sacramentos[]" value="Bautismo" style="width: 500px; padding: 32px;> Bautismo<br>
-<input type="checkbox" name="sacramentos[]" value="Comunion" style="width: 500px; padding: 32px;> Primera Comunión<br>
-<input type="checkbox" name="sacramentos[]" value="Confirmacion" style="width: 500px; padding: 32px;> Confirmación<br>
-<input type="checkbox" name="sacramentos[]" value="Matrimonio" style="width: 500px; padding: 32px;> Matrimonio<br>
+<input type="checkbox" name="sacramentos[]" value="Bautismo"> Bautismo<br>
+<input type="checkbox" name="sacramentos[]" value="Comunion"> Primera Comunión<br>
+<input type="checkbox" name="sacramentos[]" value="Confirmacion"> Confirmación<br>
+<input type="checkbox" name="sacramentos[]" value="Matrimonio"> Matrimonio<br>
 <p>¿Asiste a algún grupo de la iglesia, sí, no, y a cuál?
 <input type="text" name="grupo" placeholder="" style="width: 500px; padding: 32px; font-size= "40px"><p>
 <p>¿Anteriormente ha asistido a un Seminario de Vida? 
