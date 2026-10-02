@@ -33,7 +33,7 @@ if(!$conexion) {
 <center><font size="16" color="1C1C1C"><b> Parroquia Cristo Redentor Del Hombre </b><p>
 "Seminario de Vida en el Espíritu"<p>
 <b>FICHA DE INSCRIPCION</b><p>
-<font size="12"
+<font size="12">
 
 <input type="text" name="nombre" placeholder="nombre" style="width: 500px; padding: 32px; font-size= "40px"><p>
 <input type="text" name="edad" placeholder="edad" style="width: 500px; padding: 32px; font-size= "40px"><p>
@@ -54,7 +54,6 @@ if(!$conexion) {
   
 <input type="submit" name="registro">
 <input type="reset">
-
 
 </form>
 
