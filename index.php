@@ -40,13 +40,14 @@ if(!$conexion) {
 <input type="text" name="direccion" placeholder="direccion" style="width: 500px; padding: 32px; font-size= "40px"><p>
 <input type="text" name="telefono" placeholder="telefono" style="width: 500px; padding: 32px; font-size= "40px"><p>
 <input type="email" name="correo" placeholder="correo" style="width: 500px; padding: 32px; font-size= "40px"><p>
-<input type="text" name="ocupacion" placeholder="ocupacion" style="width: 500px; padding: 32px; font-size= "40px"<p>  
+<input type="text" name="ocupacion" placeholder="ocupacion" style="width: 500px; padding: 32px; font-size= "40px"<br>
 <input type="text" name="estadocivil" placeholder="Estado civil" style="width: 500px; padding: 32px; font-size= "40px"><p>  
 <p><b>Sacramentos:</b></p>
 <input type="checkbox" name="sacramentos[]" value="Bautismo"> Bautismo<br>
 <input type="checkbox" name="sacramentos[]" value="Comunion"> Primera Comunión<br>
 <input type="checkbox" name="sacramentos[]" value="Confirmacion"> Confirmación<br>
 <input type="checkbox" name="sacramentos[]" value="Matrimonio"> Matrimonio<br>
+<p>¿Asiste a algún grupo de la iglesia, sí, no, y a cuál?
 
 <input type="submit" name="registro">
 <input type="reset">
