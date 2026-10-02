@@ -35,13 +35,13 @@ if(!$conexion) {
 <b>FICHA DE INSCRIPCION</b><p>
 
 
-<input type="text" name="nombre" placeholder="nombre" style="width: 400px; padding: 16px; font-size="16px"><p>
-<input type="text" name="edad" placeholder="edad"><p>
-<input type="text" name="direccion" placeholder="direccion"><p>
-<input type="text" name="telefono" placeholder="telefono"><p>
-<input type="email" name="correo" placeholder="correo"><p>
-<input type="text" name="ocupacion" placeholder="ocupacion"><p>  
-<input type="text" name="estadocivil" placeholder="Estado civil"><p>  
+<input type="text" name="nombre" placeholder="nombre" style="width: 500px; padding: 32px; font-size="16px"><p>
+<input type="text" name="edad" placeholder="edad" style="width: 500px; padding: 32px; font-size="16px"><p>
+<input type="text" name="direccion" placeholder="direccion" style="width: 500px; padding: 32px; font-size="16px"><p>
+<input type="text" name="telefono" placeholder="telefono" style="width: 500px; padding: 32px; font-size="16px"><p>
+<input type="email" name="correo" placeholder="correo" style="width: 500px; padding: 32px; font-size="16px"><p>
+<input type="text" name="ocupacion" placeholder="ocupacion" style="width: 500px; padding: 32px; font-size="16px"><p>  
+<input type="text" name="estadocivil" placeholder="Estado civil" style="width: 500px; padding: 32px; font-size="16px"><p>  
 Sacramentos:<p>  
 
 <input type="submit" name="registro">
