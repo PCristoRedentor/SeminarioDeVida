@@ -35,25 +35,25 @@ if(!$conexion) {
 <b>FICHA DE INSCRIPCION</b><p>
 <font size="12">
 
-<p><input type="text" name="nombre" placeholder="nombre" style="width: 500px; padding: 24px; font-size: 32px;"><p>
-<p><input type="text" name="edad" placeholder="edad" style="width: 500px; padding: 24px; font-size: 32px;"><p>
-<p><input type="text" name="direccion" placeholder="direccion" style="width: 500px; padding: 24px; font-size: 32px;"><p>
-<p><input type="text" name="telefono" placeholder="telefono" style="width: 500px; padding: 24px; font-size: 32px;"><p>
-<p><input type="email" name="correo" placeholder="correo" style="width: 500px; padding: 24px; font-size: 32px;"><p>
-<p><input type="text" name="ocupacion" placeholder="ocupacion" style="width: 500px; padding: 24px; font-size: 32px;"<p>
-<p><input type="text" name="estadocivil" placeholder="Estado civil" style="width: 500px; padding: 24px; font-size: 32px;"><p>  
+<p><input type="text" name="nombre" placeholder="nombre" required style="width: 500px; padding: 24px; font-size: 32px;"><p>
+<p><input type="text" name="edad" placeholder="edad" required style="width: 500px; padding: 24px; font-size: 32px;"><p>
+<p><input type="text" name="direccion" placeholder="direccion" required style="width: 500px; padding: 24px; font-size: 32px;"><p>
+<p><input type="text" name="telefono" placeholder="telefono" required style="width: 500px; padding: 24px; font-size: 32px;"><p>
+<p><input type="email" name="correo" placeholder="correo" required style="width: 500px; padding: 24px; font-size: 32px;"><p>
+<p><input type="text" name="ocupacion" placeholder="ocupacion" required style="width: 500px; padding: 24px; font-size: 32px;"<p>
+<p><input type="text" name="estadocivil" placeholder="Estado civil" required style="width: 500px; padding: 24px; font-size: 32px;"><p>  
 <p><b>Sacramentos:</b></p>
 <input type="checkbox" name="sacramentos[]" value="Bautismo" style="width: 40px; height: 40px;"> Bautismo<br>
 <input type="checkbox" name="sacramentos[]" value="Comunion" style="width: 40px; height: 40px;"> Primera Comunión<br>
 <input type="checkbox" name="sacramentos[]" value="Confirmacion" style="width: 40px; height: 40px;"> Confirmación<br>
 <input type="checkbox" name="sacramentos[]" value="Matrimonio" style="width: 40px; height: 40px;"> Matrimonio<br>
 <p><b>¿Asiste a algún grupo de la iglesia, sí, no, y a cuál?</b></p>
-<input type="text" name="grupo" placeholder="" style="width: 500px; padding: 24px; font-size: 32px;"><p> 
+<input type="text" name="grupo" placeholder="" required style="width: 500px; padding: 24px; font-size: 32px;"><p> 
 <p><b>¿Anteriormente ha asistido a un Seminario de Vida?</b></p>
-<input type="radio" name="estadocivil" value="Si" style="width: 40px; height: 40px;"> Si<br>
+<input type="radio" name="estadocivil" value="Si" required style="width: 40px; height: 40px;"> Si<br>
 <input type="radio" name="estadocivil" value="No" style="width: 40px; height: 40px;"> No<br>
 <p><b>¿A qué Parroquia pertenece?</b></p>
-<input type="text" name="parroquia" placeholder="" style="width: 500px; padding: 24px; font-size: 32px;"><p>
+<input type="text" name="parroquia" placeholder="" required style="width: 500px; padding: 24px; font-size: 32px;"><p>
 
   
 <input type="submit" name="registro" style="width: 350px; padding: 24px; font-size: 32px;">
