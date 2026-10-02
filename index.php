@@ -43,8 +43,8 @@ if(!$conexion) {
 <input type="text" name="ocupacion" placeholder="ocupacion" style="width: 500px; padding: 32px; font-size= "40px"<p>
 <p><input type="text" name="estadocivil" placeholder="Estado civil" style="width: 500px; padding: 32px; font-size= "40px"><p>  
 <p><b>Sacramentos:</b></p>
-<input type="checkbox" name="sacramentos[]" value="Bautismo"> Bautismo<br>
-<input type="checkbox" name="sacramentos[]" value="Comunion"> Primera Comunión<br>
+<input type="checkbox" name="sacramentos[]" value="Bautismo" style= "whithd: 22px; heigth: 22px;"> Bautismo<br>
+<input type="checkbox" name="sacramentos[]" value="Comunion" style= "whithd: 22px; heigth: 22px;"> Primera Comunión<br>
 <input type="checkbox" name="sacramentos[]" value="Confirmacion"> Confirmación<br>
 <input type="checkbox" name="sacramentos[]" value="Matrimonio"> Matrimonio<br>
 <p><b>¿Asiste a algún grupo de la iglesia, sí, no, y a cuál?</b></p>
