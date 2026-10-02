@@ -50,7 +50,7 @@ if(!$conexion) {
 <p>¿Asiste a algún grupo de la iglesia, sí, no, y a cuál?
 <input type="text" name="grupo" placeholder="" style="width: 500px; padding: 32px; font-size= "40px"><p>
 <p>¿Anteriormente ha asistido a un Seminario de Vida? 
-  <input type="radio-button" name="sacramentos[]" value="Matrimonio" style="width: 500px; padding: 32px> Matrimonio<br>
+<input type="checkbox" name="sacramentos[]" value="Matrimonio" style="width: 500px; padding: 32px> Matrimonio<br>
   
 <input type="submit" name="registro">
 <input type="reset">
