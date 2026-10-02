@@ -56,7 +56,7 @@ if(!$conexion) {
 <input type="text" name="parroquia" placeholder="" style="width: 500px; padding: 24px; font-size: 32px;"><p>
 
   
-<input type="submit" name="registro">
+<input type="submit" name="registro" style="width: 500px; padding: 24px; font-size: 32px;">
 
 
 </form>
