@@ -34,6 +34,7 @@ if(!$conexion) {
 "Seminario de Vida en el Espíritu"<p>
 <b>FICHA DE INSCRIPCION</b><p>
 <font size="12">
+</center>
 
 <p><input type="text" name="nombre" placeholder="nombre" required style="width: 500px; padding: 24px; font-size: 32px;"><p>
 <p><input type="text" name="edad" placeholder="edad" required style="width: 500px; padding: 24px; font-size: 32px;"><p>
