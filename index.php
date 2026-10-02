@@ -57,7 +57,7 @@ if(!$conexion) {
 
   
 <input type="submit" name="registro">
-<input type="reset">
+
 
 </form>
 
