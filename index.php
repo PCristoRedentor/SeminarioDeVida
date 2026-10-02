@@ -35,12 +35,12 @@ if(!$conexion) {
 <b>FICHA DE INSCRIPCION</b><p>
 <font size="12">
 
-<input type="text" name="nombre" placeholder="nombre" style="width: 500px; padding: 24px; font-size: 32px;"><p>
-<input type="text" name="edad" placeholder="edad" style="width: 500px; padding: 24px; font-size: 32px;"><p>
-<input type="text" name="direccion" placeholder="direccion" style="width: 500px; padding: 24px; font-size: 32px;"><p>
-<input type="text" name="telefono" placeholder="telefono" style="width: 500px; padding: 24px; font-size: 32px;"><p>
-<input type="email" name="correo" placeholder="correo" style="width: 500px; padding: 24px; font-size: 32px;"><p>
-<input type="text" name="ocupacion" placeholder="ocupacion" style="width: 500px; padding: 24px; font-size: 32px;"<p>
+<p><input type="text" name="nombre" placeholder="nombre" style="width: 500px; padding: 24px; font-size: 32px;"><p>
+<p><input type="text" name="edad" placeholder="edad" style="width: 500px; padding: 24px; font-size: 32px;"><p>
+<p><input type="text" name="direccion" placeholder="direccion" style="width: 500px; padding: 24px; font-size: 32px;"><p>
+<p><input type="text" name="telefono" placeholder="telefono" style="width: 500px; padding: 24px; font-size: 32px;"><p>
+<p><input type="email" name="correo" placeholder="correo" style="width: 500px; padding: 24px; font-size: 32px;"><p>
+<p><input type="text" name="ocupacion" placeholder="ocupacion" style="width: 500px; padding: 24px; font-size: 32px;"<p>
 <p><input type="text" name="estadocivil" placeholder="Estado civil" style="width: 500px; padding: 24px; font-size: 32px;"><p>  
 <p><b>Sacramentos:</b></p>
 <input type="checkbox" name="sacramentos[]" value="Bautismo" style="width: 40px; height: 40px;"> Bautismo<br>
