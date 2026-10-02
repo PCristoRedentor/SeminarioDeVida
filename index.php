@@ -36,7 +36,7 @@ if(!$conexion) {
 <font size="12">
 </center>
 
-<p><input type="text" name="nombre" placeholder="nombre" required style="width: 500px; padding: 24px; font-size: 32px;"><p>
+<p><input type="text" name="nombre" placeholder="nombre" required style="width: 500px; padding: 24px; font-size: 32px; border-radius: 15px;"><p>
 <p><input type="text" name="edad" placeholder="edad" required style="width: 500px; padding: 24px; font-size: 32px;"><p>
 <p><input type="text" name="direccion" placeholder="direccion" required style="width: 500px; padding: 24px; font-size: 32px;"><p>
 <p><input type="text" name="telefono" placeholder="telefono" required style="width: 500px; padding: 24px; font-size: 32px;"><p>
