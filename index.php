@@ -35,7 +35,7 @@ if(!$conexion) {
 <b>FICHA DE INSCRIPCION</b><p>
 <font size="12"
 
-<input type="text" name="nombre" placeholder="nombre" style="width: 500px; padding: 32px; font-size= "40"><p>
+<input type="text" name="nombre" placeholder="nombre" style="width: 500px; padding: 32px; font-size= "40px"><p>
 <input type="text" name="edad" placeholder="edad" style="width: 500px; padding: 32px; font-size= "40px"><p>
 <input type="text" name="direccion" placeholder="direccion" style="width: 500px; padding: 32px; font-size= "40px"><p>
 <input type="text" name="telefono" placeholder="telefono" style="width: 500px; padding: 32px; font-size= "40px"><p>
