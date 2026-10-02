@@ -52,7 +52,7 @@ if(!$conexion) {
 <p><b>¿Anteriormente ha asistido a un Seminario de Vida?</b></p>
 <input type="radio" name="estadocivil" value="Si" required style="width: 40px; height: 40px;"> Si<br>
 <input type="radio" name="estadocivil" value="No" style="width: 40px; height: 40px;"> No<br>
-<p><b>¿A qué Parroquia pertenece?</b></p>
+<p><b>¿A qué Parroquia pertenece? a</b></p>
 <input type="text" name="parroquia" placeholder="" required style="width: 500px; padding: 24px; font-size: 32px;"><p>
 
   
