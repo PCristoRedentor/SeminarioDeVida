@@ -51,8 +51,8 @@ if(!$conexion) {
 <p><b>¿Asiste a algún grupo de la iglesia, sí, no, y a cuál?</b></p>
 <input type="text" name="grupo" placeholder="" required style="width: 500px; padding: 24px; font-size: 32px; border-radius: 15px; border: 2px solid #888""><p> 
 <p><b>¿Anteriormente ha asistido a un Seminario de Vida?</b></p>
-<input type="radio" name="estadocivil" value="Si" required style="width: 40px; height: 40px;"> Si<br>
-<input type="radio" name="estadocivil" value="No" style="width: 40px; height: 40px;"> No<br>
+<input type="radio" name="seminario" value="Si" required style="width: 40px; height: 40px;"> Si<br>
+<input type="radio" name="seminario" value="No" style="width: 40px; height: 40px;"> No<br>
 <p><b>¿A qué Parroquia pertenece? a</b></p>
 <input type="text" name="parroquia" placeholder="" required style="width: 500px; padding: 24px; font-size: 32px; border-radius: 15px; border: 2px solid #888""><p>
 
