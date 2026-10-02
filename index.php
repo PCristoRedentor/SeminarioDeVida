@@ -53,7 +53,7 @@ if(!$conexion) {
 <p><b>¿Anteriormente ha asistido a un Seminario de Vida?</b></p>
 <input type="radio" name="seminario" value="Si" required style="width: 40px; height: 40px;"> Si<br>
 <input type="radio" name="seminario" value="No" style="width: 40px; height: 40px;"> No<br>
-<p><b>¿A qué Parroquia pertenece? a</b></p>
+<p><b>¿A qué Parroquia pertenece?</b></p>
 <input type="text" name="parroquia" placeholder="" required style="width: 500px; padding: 24px; font-size: 32px; border-radius: 15px; border: 2px solid #888""><p>
 
   <center>
@@ -72,11 +72,17 @@ if(isset($_POST['registro'])){
 
 $nombre= $_POST ['nombre'];
 $edad= $_POST ['edad'];
-$correo= $_POST ['correo'];
+$direccion= $_POST ['direccion'];
 $telefono= $_POST ['telefono'];
+$correo= $_POST ['correo'];
+$ocupacion= $_POST ['ocupacion'];
+$estadocivil= $_POST ['estadocivil'];
 $sacramentos = isset($_POST['sacramentos']) ? implode(",", $_POST['sacramentos']) : "";
+$grupo= $_POST ['grupo'];
+$seminario= $_POST ['seminario'];
+$parroquia= $_POST ['parroquia'];
 
-$insertarDatos = "INSERT INTO datos VALUES('$nombre', '$edad', '$correo', '$telefono')";
+$insertarDatos = "INSERT INTO datos VALUES('$nombre', '$edad','$direccion', '$telefono', '$correo', '$ocupacion', '$estadocivil', '$sacramentos', '$grupo', '$seminario', '$parroquia')";
 
 $ejecutarInstertar = mysqli_query ($conexion, $insertarDatos);
 
