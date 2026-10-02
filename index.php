@@ -66,12 +66,15 @@ if(!$conexion) {
 
 <?php
 
+
+
 if(isset($_POST['registro'])){
 
 $nombre= $_POST ['nombre'];
 $edad= $_POST ['edad'];
 $correo= $_POST ['correo'];
 $telefono= $_POST ['telefono'];
+$sacramentos = isset($_POST['sacramentos']) ? implode(",", $_POST['sacramentos']) : "";
 
 $insertarDatos = "INSERT INTO datos VALUES('$nombre', '$edad', '$correo', '$telefono')";
 
