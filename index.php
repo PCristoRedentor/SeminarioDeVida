@@ -56,9 +56,9 @@ if(!$conexion) {
 <p><b>¿A qué Parroquia pertenece? a</b></p>
 <input type="text" name="parroquia" placeholder="" required style="width: 500px; padding: 24px; font-size: 32px;"><p>
 
-  
+  <center>
 <input type="submit" name="registro" style="width: 350px; padding: 24px; font-size: 32px;">
-
+</center>
 
 </form>
 
