@@ -42,16 +42,16 @@ if(!$conexion) {
 <input type="email" name="correo" placeholder="correo" style="width: 500px; padding: 32px; font-size= "40px"><p>
 <input type="text" name="ocupacion" placeholder="ocupacion" style="width: 500px; padding: 32px; font-size= "40px"<p>
 <p><input type="text" name="estadocivil" placeholder="Estado civil" style="width: 500px; padding: 32px; font-size= "40px"><p>  
-<p><b>Sacramentos: a</b></p>
-<input type="checkbox" name="sacramentos[]" value="Bautismo" style="width: 40px; heigth: 40px;"> Bautismo<br>
-<input type="checkbox" name="sacramentos[]" value="Comunion" style="width: 40px; heigth: 40px;"> Primera Comunión<br>
-<input type="checkbox" name="sacramentos[]" value="Confirmacion"> Confirmación<br>
-<input type="checkbox" name="sacramentos[]" value="Matrimonio"> Matrimonio<br>
+<p><b>Sacramentos:</b></p>
+<input type="checkbox" name="sacramentos[]" value="Bautismo" style="width: 40px; height: 40px;"> Bautismo<br>
+<input type="checkbox" name="sacramentos[]" value="Comunion" style="width: 40px; height: 40px;"> Primera Comunión<br>
+<input type="checkbox" name="sacramentos[]" value="Confirmacion" style="width: 40px; height: 40px;"> Confirmación<br>
+<input type="checkbox" name="sacramentos[]" value="Matrimonio" style="width: 40px; height: 40px;"> Matrimonio<br>
 <p><b>¿Asiste a algún grupo de la iglesia, sí, no, y a cuál?</b></p>
 <input type="text" name="grupo" placeholder="" style="width: 500px; padding: 24px; font-size= "40px"><p> 
 <p><b>¿Anteriormente ha asistido a un Seminario de Vida?</b></p>
-<input type="radio" name="estadocivil" value="Si" style="width: 22px; heigth: 22px;"> Si<br>
-<input type="radio" name="estadocivil" value="No" style="width: 22px; heigth: 22px;"> No<br>
+<input type="radio" name="estadocivil" value="Si" style="width: 22px; height: 22px;"> Si<br>
+<input type="radio" name="estadocivil" value="No" style="width: 22px; height: 22px;"> No<br>
 <p><b>¿A qué Parroquia pertenece?</b></p>
 <input type="text" name="parroquia" placeholder="" style="width: 500px; padding: 24px; font-size= "40px"><p>
 
