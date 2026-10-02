@@ -33,22 +33,25 @@ if(!$conexion) {
 <center><font size="16" color="1C1C1C"><b> Parroquia Cristo Redentor Del Hombre </b><p>
 "Seminario de Vida en el Espíritu"<p>
 <b>FICHA DE INSCRIPCION</b><p>
+<font size="12"
 
-
-<input type="text" name="nombre" placeholder="nombre" style="width: 500px; padding: 32px; font-size= "40px" ><p>
+<input type="text" name="nombre" placeholder="nombre" style="width: 500px; padding: 32px; font-size= "40"><p>
 <input type="text" name="edad" placeholder="edad" style="width: 500px; padding: 32px; font-size= "40px"><p>
 <input type="text" name="direccion" placeholder="direccion" style="width: 500px; padding: 32px; font-size= "40px"><p>
 <input type="text" name="telefono" placeholder="telefono" style="width: 500px; padding: 32px; font-size= "40px"><p>
 <input type="email" name="correo" placeholder="correo" style="width: 500px; padding: 32px; font-size= "40px"><p>
-<input type="text" name="ocupacion" placeholder="ocupacion" style="width: 500px; padding: 32px; font-size= "40px"<br>
+<input type="text" name="ocupacion" placeholder="ocupacion" style="width: 500px; padding: 32px; font-size= "40px"<p>
 <input type="text" name="estadocivil" placeholder="Estado civil" style="width: 500px; padding: 32px; font-size= "40px"><p>  
 <p><b>Sacramentos:</b></p>
-<input type="checkbox" name="sacramentos[]" value="Bautismo"> Bautismo<br>
-<input type="checkbox" name="sacramentos[]" value="Comunion"> Primera Comunión<br>
-<input type="checkbox" name="sacramentos[]" value="Confirmacion"> Confirmación<br>
-<input type="checkbox" name="sacramentos[]" value="Matrimonio"> Matrimonio<br>
+<input type="checkbox" name="sacramentos[]" value="Bautismo" style="width: 500px; padding: 32px> Bautismo<br>
+<input type="checkbox" name="sacramentos[]" value="Comunion" style="width: 500px; padding: 32px> Primera Comunión<br>
+<input type="checkbox" name="sacramentos[]" value="Confirmacion" style="width: 500px; padding: 32px> Confirmación<br>
+<input type="checkbox" name="sacramentos[]" value="Matrimonio" style="width: 500px; padding: 32px> Matrimonio<br>
 <p>¿Asiste a algún grupo de la iglesia, sí, no, y a cuál?
-
+<input type="text" name="grupo" placeholder="" style="width: 500px; padding: 32px; font-size= "40px"><p>
+<p>¿Anteriormente ha asistido a un Seminario de Vida? 
+  <input type="radio-button" name="sacramentos[]" value="Matrimonio" style="width: 500px; padding: 32px> Matrimonio<br>
+  
 <input type="submit" name="registro">
 <input type="reset">
 
