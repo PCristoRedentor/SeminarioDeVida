@@ -41,7 +41,7 @@ if(!$conexion) {
 <input type="text" name="telefono" placeholder="telefono" style="width: 500px; padding: 32px; font-size= "40px"><p>
 <input type="email" name="correo" placeholder="correo" style="width: 500px; padding: 32px; font-size= "40px"><p>
 <input type="text" name="ocupacion" placeholder="ocupacion" style="width: 500px; padding: 32px; font-size= "40px"<p>
-<input type="text" name="estadocivil" placeholder="Estado civil" style="width: 500px; padding: 32px; font-size= "40px"><p>  
+<p><input type="text" name="estadocivil" placeholder="Estado civil" style="width: 500px; padding: 32px; font-size= "40px"><p>  
 <p><b>Sacramentos:</b></p>
 <input type="checkbox" name="sacramentos[]" value="Bautismo"> Bautismo<br>
 <input type="checkbox" name="sacramentos[]" value="Comunion"> Primera Comunión<br>
