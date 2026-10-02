@@ -47,12 +47,13 @@ if(!$conexion) {
 <input type="checkbox" name="sacramentos[]" value="Comunion"> Primera Comunión<br>
 <input type="checkbox" name="sacramentos[]" value="Confirmacion"> Confirmación<br>
 <input type="checkbox" name="sacramentos[]" value="Matrimonio"> Matrimonio<br>
-<p>¿Asiste a algún grupo de la iglesia, sí, no, y a cuál?
-<input type="text" name="grupo" placeholder="" style="width: 500px; padding: 32px; font-size= "40px"><p>
-<p>¿Anteriormente ha asistido a un Seminario de Vida? 
-<p><b>Estado Civil:</b></p>
+<p><b>¿Asiste a algún grupo de la iglesia, sí, no, y a cuál?</b></p>
+<input type="text" name="grupo" placeholder="" style="width: 500px; padding: 32px; font-size= "40px"><p> 
+<p><b>¿Anteriormente ha asistido a un Seminario de Vida?</b></p>
 <input type="radio" name="estadocivil" value="Si"> Si<br>
 <input type="radio" name="estadocivil" value="No"> No<br>
+<p><b>¿A qué Parroquia pertenece?</b></p>
+<input type="text" name="parroquia" placeholder="" style="width: 500px; padding: 32px; font-size= "40px"><p>
 
   
 <input type="submit" name="registro">
