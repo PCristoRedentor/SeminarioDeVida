@@ -28,7 +28,7 @@ if(!$conexion) {
 </center>
   
 <img src ="cristo.jpg" height="200" width="200";
-<style="text-alling : right;"
+
 <img src ="rcces.jpg" height="200" width="200";
   
 <center>
