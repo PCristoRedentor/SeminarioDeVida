@@ -60,7 +60,7 @@ if(!$conexion) {
 <input type="text" name="parroquia" placeholder="" required style="width: 500px; padding: 24px; font-size: 32px; border-radius: 15px; border: 2px solid #888""><p>
 
   <center>
-<input type="submit" name="registro" style="width: 350px; padding: 24px; font-size: 32px;">
+<input type="submit" name="registro" style="width: 350px; padding: 24px; font-size: 32px;"><br>
 </center>
 
 <center><font face="arial" size="12" color="1C1C1C"><b> !Te esperamos 15 minutos antes de las 8¡ </b><p>
