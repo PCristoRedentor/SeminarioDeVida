@@ -60,7 +60,7 @@ if(!$conexion) {
 
   <center>
 <input type="submit" name="registro" style="width: 350px; padding: 24px; font-size: 32px;">
-<style font-size: 20px;><p><b>!Te esperamos 15 minutos antes de las 8¡</b></p>
+<p><b><style font-size: 20px;> !Te esperamos 15 minutos antes de las 8¡</b></p>
 </center>
 
 </form>
