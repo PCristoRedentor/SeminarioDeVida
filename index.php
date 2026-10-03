@@ -28,8 +28,8 @@ if(!$conexion) {
 </center>
   
 <div style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="cristo.jpg" alt="Izquierda" width="150">
-  <img src="rcces.jpg" alt="Derecha" width="150">
+  <img src="cristo.jpg" alt="Izquierda" width="200">
+  <img src="rcces.jpg" alt="Derecha" width="200">
 </div>
   
 <center>
@@ -61,8 +61,8 @@ if(!$conexion) {
 
   <center>
 <input type="submit" name="registro" style="width: 350px; padding: 24px; font-size: 32px;">
-<p><b><style font-size: 20px;> !Te esperamos 15 minutos antes de las 8¡</b></p>
 </center>
+<center></center><font size="16" color="1C1C1C"><b> !Te esperamos 15 minutos antes de las 8¡ </b><p></center>
 
 </form>
 
