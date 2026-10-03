@@ -28,7 +28,7 @@ if(!$conexion) {
 </center>
   
 <img src ="cristo.jpg" height="200" width="200";
-<style="text.alling : right;"
+<style="text-alling : right;"
 <img src ="rcces.jpg" height="200" width="200";
   
 <center>
@@ -60,7 +60,7 @@ if(!$conexion) {
 
   <center>
 <input type="submit" name="registro" style="width: 350px; padding: 24px; font-size: 32px;">
-<p><b>!Te esperamos 15 minutos antes de las 8¡</b></p>
+<font-size: 20px;><p><b>!Te esperamos 15 minutos antes de las 8¡</b></p>
 </center>
 
 </form>
