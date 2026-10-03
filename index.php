@@ -34,7 +34,7 @@ if(!$conexion) {
   
 <center>
 <center><font size="16" color="1C1C1C"><b> Parroquia Cristo Redentor Del Hombre </b><p>
-"Seminario de Vida en el Espíritu"<p>
+"Seminario de Vida en el Espíritu 2026"<p>
 <b>FICHA DE INSCRIPCIÓN</b><p>
 <font size="12">
 </center>
