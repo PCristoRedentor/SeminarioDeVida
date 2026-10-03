@@ -29,7 +29,7 @@ if(!$conexion) {
   
 <img src ="cristo.jpg" height="200" width="200";>
 
-<img src ="rcces.jpg" height="200" width="200";>
+<style="text-alling: right;"> <img src ="rcces.jpg" height="200" width="200";>
   
 <center>
 <center><font size="16" color="1C1C1C"><b> Parroquia Cristo Redentor Del Hombre </b><p>
